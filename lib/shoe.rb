@@ -4,7 +4,7 @@ class Shoe
 
   BRAND = []
   BRAND << brand
-
+  
   def initialize(brand)
     @brand = brand
   end
