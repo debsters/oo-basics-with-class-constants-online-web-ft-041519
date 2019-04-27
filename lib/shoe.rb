@@ -3,7 +3,6 @@ class Shoe
   attr_reader :brand
 
   BRAND = []
-  BRAND << brand
 
   def initialize(brand)
     @brand = brand
@@ -13,5 +12,7 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+
+BRAND << brand
 
 end
